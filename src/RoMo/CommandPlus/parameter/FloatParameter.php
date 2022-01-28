@@ -11,7 +11,4 @@ class FloatParameter extends Parameter{
         parent::__construct($name, $isOptional);
         $this->paramType |= AvailableCommandsPacket::ARG_TYPE_FLOAT;
     }
-    public function parse(string $argument){
-        // TODO: Implement parse() method.
-    }
 }

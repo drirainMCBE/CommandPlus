@@ -11,7 +11,4 @@ class CommandParameter extends Parameter{
         parent::__construct($name, $isOptional);
         $this->paramType |= AvailableCommandsPacket::ARG_TYPE_COMMAND;
     }
-    public function parse(string $argument){
-        //TODO
-    }
 }

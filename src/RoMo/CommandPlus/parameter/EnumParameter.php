@@ -17,7 +17,4 @@ class EnumParameter extends Parameter{
         $this->paramType |= AvailableCommandsPacket::ARG_FLAG_ENUM;
         $this->enum = new CommandEnum($enumType, $enumValues);
     }
-    public function parse(string $argument){
-        // TODO: Implement parse() method.
-    }
 }

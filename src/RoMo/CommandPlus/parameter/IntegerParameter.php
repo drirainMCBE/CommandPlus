@@ -11,7 +11,4 @@ class IntegerParameter extends Parameter{
         parent::__construct($name, $isOptional);
         $this->paramType |= AvailableCommandsPacket::ARG_TYPE_INT;
     }
-    public function parse(string $argument){
-        //TODO
-    }
 }
